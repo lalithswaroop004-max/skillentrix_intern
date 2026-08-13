@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lalith Swaroop | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:rgba(15,23,42,.9);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#38bdf8;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:25px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+section{
+padding:100px 10%;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+min-height:100vh;
+gap:40px;
+}
+
+.hero-text h1{
+font-size:60px;
+}
+
+.hero-text h2{
+font-size:30px;
+color:#38bdf8;
+margin:15px 0;
+}
+
+.hero-text p{
+max-width:600px;
+line-height:1.8;
+color:#cbd5e1;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:#38bdf8;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:bold;
+}
+
+.hero img{
+width:330px;
+border-radius:50%;
+border:6px solid #38bdf8;
+}
+
+.title{
+font-size:40px;
+margin-bottom:40px;
+text-align:center;
+color:#38bdf8;
+}
+
+.about-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:20px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:20px;
+text-align:center;
+border-radius:15px;
+}
+
+.timeline{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.project{
+background:#1e293b;
+padding:25px;
+border-radius:20px;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+margin:10px;
+font-size:18px;
+}
+
+footer{
+padding:25px;
+text-align:center;
+background:#020617;
+margin-top:60px;
+}
+
+@media(max-width:900px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.about-grid{
+grid-template-columns:1fr;
+}
+
+.hero img{
+width:250px;
+}
+
+.hero-text h1{
+font-size:42px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Lalith Swaroop</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#education">Education</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-text">
+
+<h1>Hello, I'm <span style="color:#38bdf8;">Lalith Swaroop</span></h1>
+
+<h2>Web Developer | Data Analyst | Fresher</h2>
+
+<p>
+Passionate Computer Science student with a strong interest in
+Web Development, Data Analytics, Artificial Intelligence,
+and problem solving. I enjoy building modern web applications,
+learning emerging technologies, and participating in hackathons.
+My goal is to contribute to innovative projects while continuously
+improving my technical and professional skills.
+</p>
+
+<a href="#contact" class="btn">Hire Me</a>
+
+</div>
+
+<img src="C:\Users\DELL\Pictures\AITS Fest 2026\port2.jpg" alt="Profile Photo">
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<div class="about-grid">
+
+<div class="card">
+
+<h3>Professional Summary</h3>
+
+<br>
+
+<p>
+
+I'm currently pursuing my B.Tech at
+Annamacharya University, Rajampeta.
+
+I am passionate about developing responsive websites,
+analyzing data, learning AI technologies,
+and solving real-world problems through software.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Personal Information</h3>
+
+<br>
+
+<p><strong>Name:</strong> Lalith Swaroop</p>
+
+<p><strong>Profession:</strong> Fresher</p>
+
+<p><strong>Role:</strong> Web Developer & Data Analyst</p>
+
+<p><strong>Languages:</strong> English, Telugu</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">HTML5</div>
+
+<div class="skill">CSS3</div>
+
+<div class="skill">JavaScript</div>
+
+<div class="skill">Java</div>
+
+<div class="skill">C Programming</div>
+
+<div class="skill">Web Development</div>
+
+<div class="skill">Data Analysis</div>
+
+<div class="skill">Problem Solving</div>
+
+<div class="skill">Communication Skills</div>
+
+<div class="skill">Photography</div>
+
+<div class="skill">Video Editing</div>
+
+</div>
+
+</section>
+
+<section id="education">
+
+<h2 class="title">Education</h2>
+
+<div class="timeline">
+
+<div class="project">
+
+<h3>SSC (10th)</h3>
+
+<p>Sri Vidyanikethan School, Anantapur</p>
+
+<p>Completed: 2022</p>
+
+</div>
+
+<div class="project">
+
+<h3>Intermediate (12th)</h3>
+
+<p>Sri Chaitanya Junior College, Anantapur</p>
+
+</div>
+
+<div class="project">
+
+<h3>B.Tech (Pursuing)</h3>
+
+<p>Annamacharya University, Rajampeta</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Certifications</h2>
+
+<div class="skills">
+
+<div class="skill">C Programming</div>
+
+<div class="skill">Java</div>
+
+<div class="skill">Web Development</div>
+
+<div class="skill">Data Analytics</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="title">Projects</h2>
+
+<div class="project">
+
+<h3>Hackathon Participant</h3>
+
+<br>
+
+<p>
+
+Participated in a Hackathon where I collaborated with a team
+to solve real-world challenges using innovative technologies.
+Focused on teamwork, problem-solving, and rapid application development.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact Me</h2>
+
+<div class="contact">
+
+<p>📧 Email: lalithswaroop004@gmail.com</p>
+
+<p>📱 Phone: 7386091520</p>
+
+<p>🎓 B.Tech Student | Web Developer | Data Analyst</p>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Lalith Swaroop | Portfolio Website
+
+</footer>
+
+</body>
+</html>
